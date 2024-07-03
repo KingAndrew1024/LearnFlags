@@ -1,0 +1,7 @@
+{
+  "name": "PaisesCapitalesApp",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
