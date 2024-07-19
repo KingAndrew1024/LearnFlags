@@ -1,0 +1,25 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button [defaultHref]="defaultHref"> </ion-back-button>
+    </ion-buttons>
+    <ion-title>Banderas 1</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-list>
+    <ion-item>
+      <h1>{{ correctCountry.name.es || correctCountry.name.en }}</h1>
+    </ion-item>
+    <ng-content *ngFor="let option of countryOptions.options">
+      <ion-item-divider></ion-item-divider>
+      <ion-item>
+        <img
+          src="../../../assets/flags/{{ option.cca2 }}.svg"
+          alt="flag of {{ option.name.en }}"
+          (click)="selectOption(option)"
+        />
+      </ion-item>
+    </ng-content>
+  </ion-list>
+</ion-content>
