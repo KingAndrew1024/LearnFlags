@@ -10,6 +10,7 @@ export class CountriesService {
   private _countries: CountryListType;
   private _numOfCountries: 2 | 3 | 4 | 5 = 3;
   private numOfContinents: 1 | 2 | 3 | 4 | 5 = 5;
+  private selectedContinentName?: ContinentType;
 
   constructor() {
     if (!localStorage.getItem('countries')) {
@@ -20,6 +21,10 @@ export class CountriesService {
     }
   }
 
+  private reloadCountries() {
+    this._countries = JSON.parse(localStorage.getItem('countries')!);
+  }
+
   get countries() {
     return this._countries;
   }
@@ -28,7 +33,7 @@ export class CountriesService {
     return this._numOfCountries;
   }
 
-  getSelectedFlags() {
+  getSelectedCountries() {
     const selectedFlags: any = {};
     Object.keys(this._countries).forEach((continent) => {
       const continent2: ContinentType = continent as ContinentType;
@@ -56,11 +61,11 @@ export class CountriesService {
     selected: boolean
   ) {
     this._countries[continent][countryCode].selected = selected;
-    localStorage.setItem('countries', JSON.stringify(this.countries));
+    localStorage.setItem('countries', JSON.stringify(this._countries));
   }
 
   selectRandomContinents(length: 1 | 2 | 3 | 4 | 5) {
-    const selectedFlags = this.getSelectedFlags();
+    const selectedFlags = this.getSelectedCountries();
     const continents = Object.keys(selectedFlags) as ContinentType[];
 
     const selectedContinents: ContinentType[] = [];
@@ -75,7 +80,7 @@ export class CountriesService {
   }
 
   selectRandomCountry(selectedContinent: ContinentType) {
-    const selectedFlags = this.getSelectedFlags();
+    const selectedFlags = this.getSelectedCountries();
     const countries = Object.keys(selectedFlags[selectedContinent]);
     const randomIndex = this.getRandomInteger(countries.length);
 
@@ -99,6 +104,7 @@ export class CountriesService {
       options: [],
     };
 
+    this.reloadCountries();
     //example if numOfContinents = 3, then otputs sth like this ['America', 'Europe', 'Africa']
 
     const continents = this.selectRandomContinents(this.numOfContinents);
@@ -114,7 +120,7 @@ export class CountriesService {
     const selectedContinentIdx = this.getRandomInteger(this.numOfCountries);
 
     // 'America'
-    const selectedContinentName = selectedContinents[
+    this.selectedContinentName = selectedContinents[
       selectedContinentIdx
     ] as ContinentType;
 
@@ -137,6 +143,20 @@ export class CountriesService {
     optionsOutput.correctIdx = selectedContinentIdx;
 
     return optionsOutput;
+  }
+
+  updateCountry(country: ICountry) {
+    const currentCounties: CountryListType = JSON.parse(
+      localStorage.getItem('countries')!
+    );
+
+    currentCounties[this.selectedContinentName!][country.cca2] = country;
+
+    localStorage.setItem('countries', JSON.stringify(currentCounties));
+  }
+
+  updateContinentCountries(countryList: CountryListType) {
+    localStorage.setItem('countries', JSON.stringify(countryList));
   }
 
   private getRandomInteger(max: number) {

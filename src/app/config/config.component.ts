@@ -21,7 +21,7 @@ export class ConfigComponent implements OnInit {
     Africa: { checked: false, indeterminateState: false },
     Asia: { checked: false, indeterminateState: false },
     Oceania: { checked: false, indeterminateState: false },
-    Antarctica: { checked: false, indeterminateState: false },
+    Antartica: { checked: false, indeterminateState: false },
   };
   constructor(private countriesSrv: CountriesService) {
     this.countries = this.countriesSrv.countries;
@@ -43,7 +43,8 @@ export class ConfigComponent implements OnInit {
     const totalCountries = Object.keys(
       this.countries[continent as ContinentType]
     ).length;
-    const continentCountries = this.countriesSrv.getSelectedFlags()[continent];
+    const continentCountries =
+      this.countriesSrv.getSelectedCountries()[continent];
     const selectedCountriesLength = Object.keys(
       continentCountries || {}
     ).length;
@@ -61,17 +62,15 @@ export class ConfigComponent implements OnInit {
       selected
     );
 
-    this.updateContinentState(continent as ContinentType);
+    //this.updateContinentState(continent as ContinentType);
   }
 
   checkContinent(key: string) {
     Object.keys(this.countries[key as ContinentType]).forEach((countryCode) => {
-      this.countriesSrv.selectCountry(
-        key as ContinentType,
-        countryCode,
-        !this.continentState[key].checked
-      );
+      this.countries[key as ContinentType][countryCode].selected =
+        !this.continentState[key].checked;
     });
+    this.countriesSrv.updateContinentCountries(this.countries);
     this.continentState[key].indeterminateState = false;
   }
 }

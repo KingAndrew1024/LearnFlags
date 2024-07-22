@@ -9,5 +9,7 @@ export interface ICountry {
     es: string;
   };
   selected: boolean;
-  score: number;
+  timesPresented: number;
+  accumulatedScore: number;
+  percentage: number;
 }

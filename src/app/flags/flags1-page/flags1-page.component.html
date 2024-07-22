@@ -13,15 +13,21 @@
         {{ correctCountry.name.es || correctCountry.name.en }}
       </h1>
     </ion-item>
-    <ng-content *ngFor="let option of countryOptions.options">
+    <ng-content *ngFor="let option of options">
       <ion-item-divider></ion-item-divider>
-      <ion-item>
-        <img
-          src="../../../assets/flags/{{ option.cca2 }}.svg"
-          alt="flag of {{ option.name.en }}"
-          #image
-          (click)="selectOption(image, option)"
-        />
+      <ion-item (click)="selectOption(image, option)">
+        <div class="column">
+          <img
+            src="../../../assets/flags/{{ option.cca2 }}.svg"
+            alt="flag of {{ option.name.en }}"
+            #image
+          />
+          <p>
+            {{ option.capital.en || "Sin capital" }}
+            <!-- &rarr;
+            {{ option.percentage }}% -->
+          </p>
+        </div>
       </ion-item>
     </ng-content>
   </ion-list>
