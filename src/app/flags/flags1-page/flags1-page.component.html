@@ -9,7 +9,9 @@
 <ion-content>
   <ion-list>
     <ion-item>
-      <h1>{{ correctCountry.name.es || correctCountry.name.en }}</h1>
+      <h1 class="centered">
+        {{ correctCountry.name.es || correctCountry.name.en }}
+      </h1>
     </ion-item>
     <ng-content *ngFor="let option of countryOptions.options">
       <ion-item-divider></ion-item-divider>
@@ -17,7 +19,8 @@
         <img
           src="../../../assets/flags/{{ option.cca2 }}.svg"
           alt="flag of {{ option.name.en }}"
-          (click)="selectOption(option)"
+          #image
+          (click)="selectOption(image, option)"
         />
       </ion-item>
     </ng-content>

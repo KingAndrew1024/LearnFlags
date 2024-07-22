@@ -6,7 +6,7 @@ export type ContinentType =
   | 'Africa'
   | 'Asia'
   | 'Oceania'
-  | 'Antarctica';
+  | 'Antartica';
 
 export type CountryListType = {
   [k in ContinentType]: { [k2: string]: ICountry };

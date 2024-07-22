@@ -37,6 +37,11 @@
 @import "@ionic/angular/css/palettes/dark.system.css";
 
 img {
-  width: 70%;
+  max-width: 200px;
   margin: auto;
+}
+
+*.centered {
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -8,7 +8,8 @@ Injectable({
 });
 export class CountriesService {
   private _countries: CountryListType;
-  private _numOfCountries = 3;
+  private _numOfCountries: 2 | 3 | 4 | 5 = 3;
+  private numOfContinents: 1 | 2 | 3 | 4 | 5 = 5;
 
   constructor() {
     if (!localStorage.getItem('countries')) {
@@ -58,19 +59,14 @@ export class CountriesService {
     localStorage.setItem('countries', JSON.stringify(this.countries));
   }
 
-  selectRandomContinents(length: number, uniques = false) {
+  selectRandomContinents(length: 1 | 2 | 3 | 4 | 5) {
     const selectedFlags = this.getSelectedFlags();
     const continents = Object.keys(selectedFlags) as ContinentType[];
 
     const selectedContinents: ContinentType[] = [];
     while (selectedContinents.length < length) {
-      const continent =
-        continents[Math.ceil(Math.random() * 10) % this.numOfCountries];
-      if (uniques) {
-        if (!selectedContinents.includes(continent)) {
-          selectedContinents.push(continent);
-        }
-      } else {
+      const continent = continents[this.getRandomInteger(length)];
+      if (!selectedContinents.includes(continent)) {
         selectedContinents.push(continent);
       }
     }
@@ -81,8 +77,9 @@ export class CountriesService {
   selectRandomCountry(selectedContinent: ContinentType) {
     const selectedFlags = this.getSelectedFlags();
     const countries = Object.keys(selectedFlags[selectedContinent]);
-    const selectedCountryCode =
-      countries[Math.ceil(Math.random() * 10) % countries.length];
+    const randomIndex = this.getRandomInteger(countries.length);
+
+    const selectedCountryCode = countries[randomIndex];
 
     const selectedCountry = selectedFlags[selectedContinent][
       selectedCountryCode
@@ -102,15 +99,19 @@ export class CountriesService {
       options: [],
     };
 
-    //example if this.numOfCountries = 3, then ['America', 'Europe', 'Africa']
-    const selectedContinents = this.selectRandomContinents(
-      this.numOfCountries,
-      false
-    );
+    //example if numOfContinents = 3, then otputs sth like this ['America', 'Europe', 'Africa']
+
+    const continents = this.selectRandomContinents(this.numOfContinents);
+
+    let continentSet = new Set<ContinentType>();
+
+    while (continentSet.size < this.numOfCountries) {
+      continentSet.add(continents[this.getRandomInteger(this.numOfContinents)]);
+    }
+    const selectedContinents = Array.from(continentSet);
 
     // 0, 1, 2 etc
-    const selectedContinentIdx =
-      Math.ceil(Math.random() * 10) % this.numOfCountries;
+    const selectedContinentIdx = this.getRandomInteger(this.numOfCountries);
 
     // 'America'
     const selectedContinentName = selectedContinents[
@@ -136,5 +137,9 @@ export class CountriesService {
     optionsOutput.correctIdx = selectedContinentIdx;
 
     return optionsOutput;
+  }
+
+  private getRandomInteger(max: number) {
+    return Math.floor(Math.random() * max);
   }
 }

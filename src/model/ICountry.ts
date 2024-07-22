@@ -9,4 +9,5 @@ export interface ICountry {
     es: string;
   };
   selected: boolean;
+  score: number;
 }

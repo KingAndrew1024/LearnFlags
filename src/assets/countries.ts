@@ -13,6 +13,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Angola',
       },
       selected: true,
+      score: 0,
     },
     bf: {
       capital: {
@@ -25,6 +26,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Burkina Faso',
       },
       selected: true,
+      score: 0,
     },
     bi: {
       capital: {
@@ -37,6 +39,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Burundi',
       },
       selected: true,
+      score: 0,
     },
     bj: {
       capital: {
@@ -49,6 +52,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Benín',
       },
       selected: true,
+      score: 0,
     },
     bw: {
       capital: {
@@ -61,6 +65,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Botsuana',
       },
       selected: true,
+      score: 0,
     },
     cd: {
       capital: {
@@ -73,6 +78,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Congo (Rep. Dem.)',
       },
       selected: true,
+      score: 0,
     },
     cf: {
       capital: {
@@ -85,6 +91,7 @@ export const COUNTRIES: CountryListType = {
         es: 'República Centroafricana',
       },
       selected: true,
+      score: 0,
     },
     cg: {
       capital: {
@@ -97,6 +104,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Congo',
       },
       selected: true,
+      score: 0,
     },
     ci: {
       capital: {
@@ -109,6 +117,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Costa de Marfil',
       },
       selected: true,
+      score: 0,
     },
     cm: {
       capital: {
@@ -121,6 +130,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Camerún',
       },
       selected: true,
+      score: 0,
     },
     cv: {
       capital: {
@@ -133,6 +143,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Cabo Verde',
       },
       selected: true,
+      score: 0,
     },
     dj: {
       capital: {
@@ -145,6 +156,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Yibuti',
       },
       selected: true,
+      score: 0,
     },
     dz: {
       capital: {
@@ -157,6 +169,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Argelia',
       },
       selected: true,
+      score: 0,
     },
     eg: {
       capital: {
@@ -169,6 +182,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Egipto',
       },
       selected: true,
+      score: 0,
     },
     eh: {
       capital: {
@@ -181,6 +195,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Sahara Occidental',
       },
       selected: true,
+      score: 0,
     },
     er: {
       capital: {
@@ -193,6 +208,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Eritrea',
       },
       selected: true,
+      score: 0,
     },
     et: {
       capital: {
@@ -205,6 +221,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Etiopía',
       },
       selected: true,
+      score: 0,
     },
     ga: {
       capital: {
@@ -217,6 +234,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Gabón',
       },
       selected: true,
+      score: 0,
     },
     gh: {
       capital: {
@@ -229,6 +247,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Ghana',
       },
       selected: true,
+      score: 0,
     },
     gm: {
       capital: {
@@ -241,6 +260,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Gambia',
       },
       selected: true,
+      score: 0,
     },
     gn: {
       capital: {
@@ -253,6 +273,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Guinea',
       },
       selected: true,
+      score: 0,
     },
     gq: {
       capital: {
@@ -265,6 +286,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Guinea Ecuatorial',
       },
       selected: true,
+      score: 0,
     },
     gw: {
       capital: {
@@ -277,6 +299,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Guinea-Bisáu',
       },
       selected: true,
+      score: 0,
     },
     io: {
       capital: {
@@ -289,6 +312,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Territorio Británico del Océano Índico',
       },
       selected: true,
+      score: 0,
     },
     ke: {
       capital: {
@@ -301,6 +325,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Kenia',
       },
       selected: true,
+      score: 0,
     },
     km: {
       capital: {
@@ -313,6 +338,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Comoras',
       },
       selected: true,
+      score: 0,
     },
     lr: {
       capital: {
@@ -325,6 +351,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Liberia',
       },
       selected: true,
+      score: 0,
     },
     ls: {
       capital: {
@@ -337,6 +364,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Lesoto',
       },
       selected: true,
+      score: 0,
     },
     ly: {
       capital: {
@@ -349,6 +377,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Libia',
       },
       selected: true,
+      score: 0,
     },
     ma: {
       capital: {
@@ -361,6 +390,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Marruecos',
       },
       selected: true,
+      score: 0,
     },
     mg: {
       capital: {
@@ -373,6 +403,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Madagascar',
       },
       selected: true,
+      score: 0,
     },
     ml: {
       capital: {
@@ -385,6 +416,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Malí',
       },
       selected: true,
+      score: 0,
     },
     mr: {
       capital: {
@@ -397,6 +429,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Mauritania',
       },
       selected: true,
+      score: 0,
     },
     mu: {
       capital: {
@@ -409,6 +442,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Mauricio',
       },
       selected: true,
+      score: 0,
     },
     mw: {
       capital: {
@@ -421,6 +455,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Malawi',
       },
       selected: true,
+      score: 0,
     },
     mz: {
       capital: {
@@ -433,6 +468,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Mozambique',
       },
       selected: true,
+      score: 0,
     },
     na: {
       capital: {
@@ -445,6 +481,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Namibia',
       },
       selected: true,
+      score: 0,
     },
     ne: {
       capital: {
@@ -457,6 +494,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Níger',
       },
       selected: true,
+      score: 0,
     },
     ng: {
       capital: {
@@ -469,6 +507,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Nigeria',
       },
       selected: true,
+      score: 0,
     },
     re: {
       capital: {
@@ -481,6 +520,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Reunión',
       },
       selected: true,
+      score: 0,
     },
     rw: {
       capital: {
@@ -493,6 +533,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Ruanda',
       },
       selected: true,
+      score: 0,
     },
     sc: {
       capital: {
@@ -505,6 +546,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Seychelles',
       },
       selected: true,
+      score: 0,
     },
     sd: {
       capital: {
@@ -517,6 +559,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Sudán',
       },
       selected: true,
+      score: 0,
     },
     sh: {
       capital: {
@@ -529,6 +572,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Santa Elena, Ascensión y Tristán de Acuña',
       },
       selected: true,
+      score: 0,
     },
     sl: {
       capital: {
@@ -541,6 +585,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Sierra Leona',
       },
       selected: true,
+      score: 0,
     },
     sn: {
       capital: {
@@ -553,6 +598,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Senegal',
       },
       selected: true,
+      score: 0,
     },
     so: {
       capital: {
@@ -565,6 +611,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Somalia',
       },
       selected: true,
+      score: 0,
     },
     ss: {
       capital: {
@@ -577,6 +624,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Sudán del Sur',
       },
       selected: true,
+      score: 0,
     },
     st: {
       capital: {
@@ -589,6 +637,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Santo Tomé y Príncipe',
       },
       selected: true,
+      score: 0,
     },
     sz: {
       capital: {
@@ -601,6 +650,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Suazilandia',
       },
       selected: true,
+      score: 0,
     },
     td: {
       capital: {
@@ -613,6 +663,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Chad',
       },
       selected: true,
+      score: 0,
     },
     tg: {
       capital: {
@@ -625,6 +676,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Togo',
       },
       selected: true,
+      score: 0,
     },
     tn: {
       capital: {
@@ -637,6 +689,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Túnez',
       },
       selected: true,
+      score: 0,
     },
     tz: {
       capital: {
@@ -649,6 +702,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Tanzania',
       },
       selected: true,
+      score: 0,
     },
     ug: {
       capital: {
@@ -661,6 +715,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Uganda',
       },
       selected: true,
+      score: 0,
     },
     yt: {
       capital: {
@@ -673,6 +728,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Mayotte',
       },
       selected: true,
+      score: 0,
     },
     za: {
       capital: {
@@ -685,6 +741,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Sudáfrica',
       },
       selected: true,
+      score: 0,
     },
     zm: {
       capital: {
@@ -697,6 +754,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Zambia',
       },
       selected: true,
+      score: 0,
     },
     zw: {
       capital: {
@@ -709,6 +767,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Zimbabue',
       },
       selected: true,
+      score: 0,
     },
   },
   America: {
@@ -723,6 +782,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Antigua y Barbuda',
       },
       selected: true,
+      score: 0,
     },
     ai: {
       capital: {
@@ -735,6 +795,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Anguila',
       },
       selected: true,
+      score: 0,
     },
     ar: {
       capital: {
@@ -747,6 +808,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Argentina',
       },
       selected: true,
+      score: 0,
     },
     aw: {
       capital: {
@@ -759,6 +821,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Aruba',
       },
       selected: true,
+      score: 0,
     },
     bb: {
       capital: {
@@ -771,6 +834,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Barbados',
       },
       selected: true,
+      score: 0,
     },
     bl: {
       capital: {
@@ -783,6 +847,7 @@ export const COUNTRIES: CountryListType = {
         es: 'San Bartolomé',
       },
       selected: true,
+      score: 0,
     },
     bm: {
       capital: {
@@ -795,6 +860,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Bermudas',
       },
       selected: true,
+      score: 0,
     },
     bo: {
       capital: {
@@ -807,6 +873,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Bolivia',
       },
       selected: true,
+      score: 0,
     },
     bq: {
       capital: {
@@ -819,6 +886,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Caribe Neerlandés',
       },
       selected: true,
+      score: 0,
     },
     br: {
       capital: {
@@ -831,6 +899,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Brasil',
       },
       selected: true,
+      score: 0,
     },
     bs: {
       capital: {
@@ -843,6 +912,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Bahamas',
       },
       selected: true,
+      score: 0,
     },
     bz: {
       capital: {
@@ -855,6 +925,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Belice',
       },
       selected: true,
+      score: 0,
     },
     ca: {
       capital: {
@@ -867,6 +938,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Canadá',
       },
       selected: true,
+      score: 0,
     },
     cl: {
       capital: {
@@ -879,6 +951,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Chile',
       },
       selected: true,
+      score: 0,
     },
     co: {
       capital: {
@@ -891,6 +964,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Colombia',
       },
       selected: true,
+      score: 0,
     },
     cr: {
       capital: {
@@ -903,6 +977,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Costa Rica',
       },
       selected: true,
+      score: 0,
     },
     cu: {
       capital: {
@@ -915,6 +990,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Cuba',
       },
       selected: true,
+      score: 0,
     },
     cw: {
       capital: {
@@ -927,6 +1003,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Curazao',
       },
       selected: true,
+      score: 0,
     },
     dm: {
       capital: {
@@ -939,6 +1016,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Dominica',
       },
       selected: true,
+      score: 0,
     },
     do: {
       capital: {
@@ -951,6 +1029,7 @@ export const COUNTRIES: CountryListType = {
         es: 'República Dominicana',
       },
       selected: true,
+      score: 0,
     },
     ec: {
       capital: {
@@ -963,6 +1042,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Ecuador',
       },
       selected: true,
+      score: 0,
     },
     fk: {
       capital: {
@@ -975,6 +1055,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Islas Malvinas',
       },
       selected: true,
+      score: 0,
     },
     gd: {
       capital: {
@@ -987,6 +1068,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Granada',
       },
       selected: true,
+      score: 0,
     },
     gf: {
       capital: {
@@ -999,6 +1081,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Guayana Francesa',
       },
       selected: true,
+      score: 0,
     },
     gl: {
       capital: {
@@ -1011,6 +1094,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Groenlandia',
       },
       selected: true,
+      score: 0,
     },
     gp: {
       capital: {
@@ -1023,6 +1107,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Guadalupe',
       },
       selected: true,
+      score: 0,
     },
     gt: {
       capital: {
@@ -1035,6 +1120,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Guatemala',
       },
       selected: true,
+      score: 0,
     },
     gy: {
       capital: {
@@ -1047,6 +1133,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Guyana',
       },
       selected: true,
+      score: 0,
     },
     hn: {
       capital: {
@@ -1059,6 +1146,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Honduras',
       },
       selected: true,
+      score: 0,
     },
     ht: {
       capital: {
@@ -1071,6 +1159,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Haití',
       },
       selected: true,
+      score: 0,
     },
     jm: {
       capital: {
@@ -1083,6 +1172,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Jamaica',
       },
       selected: true,
+      score: 0,
     },
     kn: {
       capital: {
@@ -1095,6 +1185,7 @@ export const COUNTRIES: CountryListType = {
         es: 'San Cristóbal y Nieves',
       },
       selected: true,
+      score: 0,
     },
     ky: {
       capital: {
@@ -1107,6 +1198,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Islas Caimán',
       },
       selected: true,
+      score: 0,
     },
     lc: {
       capital: {
@@ -1119,6 +1211,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Santa Lucía',
       },
       selected: true,
+      score: 0,
     },
     mf: {
       capital: {
@@ -1131,6 +1224,7 @@ export const COUNTRIES: CountryListType = {
         es: 'San Martín (Francia)',
       },
       selected: true,
+      score: 0,
     },
     mq: {
       capital: {
@@ -1143,6 +1237,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Martinica',
       },
       selected: true,
+      score: 0,
     },
     ms: {
       capital: {
@@ -1155,6 +1250,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Montserrat',
       },
       selected: true,
+      score: 0,
     },
     mx: {
       capital: {
@@ -1167,6 +1263,7 @@ export const COUNTRIES: CountryListType = {
         es: 'México',
       },
       selected: true,
+      score: 0,
     },
     ni: {
       capital: {
@@ -1179,6 +1276,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Nicaragua',
       },
       selected: true,
+      score: 0,
     },
     pa: {
       capital: {
@@ -1191,6 +1289,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Panamá',
       },
       selected: true,
+      score: 0,
     },
     pe: {
       capital: {
@@ -1203,6 +1302,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Perú',
       },
       selected: true,
+      score: 0,
     },
     pm: {
       capital: {
@@ -1215,6 +1315,7 @@ export const COUNTRIES: CountryListType = {
         es: 'San Pedro y Miquelón',
       },
       selected: true,
+      score: 0,
     },
     pr: {
       capital: {
@@ -1227,6 +1328,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Puerto Rico',
       },
       selected: true,
+      score: 0,
     },
     py: {
       capital: {
@@ -1239,6 +1341,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Paraguay',
       },
       selected: true,
+      score: 0,
     },
     sr: {
       capital: {
@@ -1251,6 +1354,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Surinam',
       },
       selected: true,
+      score: 0,
     },
     sv: {
       capital: {
@@ -1263,6 +1367,7 @@ export const COUNTRIES: CountryListType = {
         es: 'El Salvador',
       },
       selected: true,
+      score: 0,
     },
     sx: {
       capital: {
@@ -1275,6 +1380,7 @@ export const COUNTRIES: CountryListType = {
         es: 'San Martín (Países Bajos)',
       },
       selected: true,
+      score: 0,
     },
     tc: {
       capital: {
@@ -1287,6 +1393,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Islas Turcas y Caicos',
       },
       selected: true,
+      score: 0,
     },
     tt: {
       capital: {
@@ -1299,6 +1406,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Trinidad y Tobago',
       },
       selected: true,
+      score: 0,
     },
     um: {
       capital: {
@@ -1311,6 +1419,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Islas Ultramarinas Menores de los Estados Unidos',
       },
       selected: true,
+      score: 0,
     },
     us: {
       capital: {
@@ -1323,6 +1432,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Estados Unidos',
       },
       selected: true,
+      score: 0,
     },
     uy: {
       capital: {
@@ -1335,6 +1445,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Uruguay',
       },
       selected: true,
+      score: 0,
     },
     vc: {
       capital: {
@@ -1347,6 +1458,7 @@ export const COUNTRIES: CountryListType = {
         es: 'San Vicente y las Granadinas',
       },
       selected: true,
+      score: 0,
     },
     ve: {
       capital: {
@@ -1359,6 +1471,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Venezuela',
       },
       selected: true,
+      score: 0,
     },
     vg: {
       capital: {
@@ -1371,6 +1484,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Islas Vírgenes Británicas',
       },
       selected: true,
+      score: 0,
     },
     vi: {
       capital: {
@@ -1383,6 +1497,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Islas Vírgenes de los Estados Unidos',
       },
       selected: true,
+      score: 0,
     },
   },
   Asia: {
@@ -1397,6 +1512,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Emiratos Árabes Unidos',
       },
       selected: true,
+      score: 0,
     },
     af: {
       capital: {
@@ -1409,6 +1525,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Afganistán',
       },
       selected: true,
+      score: 0,
     },
     am: {
       capital: {
@@ -1421,6 +1538,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Armenia',
       },
       selected: true,
+      score: 0,
     },
     az: {
       capital: {
@@ -1433,6 +1551,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Azerbaiyán',
       },
       selected: true,
+      score: 0,
     },
     bd: {
       capital: {
@@ -1445,6 +1564,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Bangladesh',
       },
       selected: true,
+      score: 0,
     },
     bh: {
       capital: {
@@ -1457,6 +1577,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Baréin',
       },
       selected: true,
+      score: 0,
     },
     bn: {
       capital: {
@@ -1469,6 +1590,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Brunéi',
       },
       selected: true,
+      score: 0,
     },
     bt: {
       capital: {
@@ -1481,6 +1603,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Bután',
       },
       selected: true,
+      score: 0,
     },
     cn: {
       capital: {
@@ -1493,6 +1616,7 @@ export const COUNTRIES: CountryListType = {
         es: 'China',
       },
       selected: true,
+      score: 0,
     },
     ge: {
       capital: {
@@ -1505,6 +1629,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Georgia',
       },
       selected: true,
+      score: 0,
     },
     hk: {
       capital: {
@@ -1517,6 +1642,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Hong Kong',
       },
       selected: true,
+      score: 0,
     },
     id: {
       capital: {
@@ -1529,6 +1655,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Indonesia',
       },
       selected: true,
+      score: 0,
     },
     il: {
       capital: {
@@ -1541,6 +1668,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Israel',
       },
       selected: true,
+      score: 0,
     },
     in: {
       capital: {
@@ -1553,6 +1681,7 @@ export const COUNTRIES: CountryListType = {
         es: 'India',
       },
       selected: true,
+      score: 0,
     },
     iq: {
       capital: {
@@ -1565,6 +1694,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Irak',
       },
       selected: true,
+      score: 0,
     },
     ir: {
       capital: {
@@ -1577,6 +1707,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Irán',
       },
       selected: true,
+      score: 0,
     },
     jo: {
       capital: {
@@ -1589,6 +1720,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Jordania',
       },
       selected: true,
+      score: 0,
     },
     jp: {
       capital: {
@@ -1601,6 +1733,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Japón',
       },
       selected: true,
+      score: 0,
     },
     kg: {
       capital: {
@@ -1613,6 +1746,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Kirguistán',
       },
       selected: true,
+      score: 0,
     },
     kh: {
       capital: {
@@ -1625,6 +1759,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Camboya',
       },
       selected: true,
+      score: 0,
     },
     kp: {
       capital: {
@@ -1637,6 +1772,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Corea del Norte',
       },
       selected: true,
+      score: 0,
     },
     kr: {
       capital: {
@@ -1649,6 +1785,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Corea del Sur',
       },
       selected: true,
+      score: 0,
     },
     kw: {
       capital: {
@@ -1661,6 +1798,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Kuwait',
       },
       selected: true,
+      score: 0,
     },
     kz: {
       capital: {
@@ -1673,6 +1811,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Kazajistán',
       },
       selected: true,
+      score: 0,
     },
     la: {
       capital: {
@@ -1685,6 +1824,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Laos',
       },
       selected: true,
+      score: 0,
     },
     lb: {
       capital: {
@@ -1697,6 +1837,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Líbano',
       },
       selected: true,
+      score: 0,
     },
     lk: {
       capital: {
@@ -1709,6 +1850,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Sri Lanka',
       },
       selected: true,
+      score: 0,
     },
     mm: {
       capital: {
@@ -1721,6 +1863,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Myanmar',
       },
       selected: true,
+      score: 0,
     },
     mn: {
       capital: {
@@ -1733,6 +1876,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Mongolia',
       },
       selected: true,
+      score: 0,
     },
     mo: {
       capital: {
@@ -1745,6 +1889,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Macao',
       },
       selected: true,
+      score: 0,
     },
     mv: {
       capital: {
@@ -1757,6 +1902,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Maldivas',
       },
       selected: true,
+      score: 0,
     },
     my: {
       capital: {
@@ -1769,6 +1915,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Malasia',
       },
       selected: true,
+      score: 0,
     },
     np: {
       capital: {
@@ -1781,6 +1928,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Nepal',
       },
       selected: true,
+      score: 0,
     },
     om: {
       capital: {
@@ -1793,6 +1941,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Omán',
       },
       selected: true,
+      score: 0,
     },
     ph: {
       capital: {
@@ -1805,6 +1954,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Filipinas',
       },
       selected: true,
+      score: 0,
     },
     pk: {
       capital: {
@@ -1817,6 +1967,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Pakistán',
       },
       selected: true,
+      score: 0,
     },
     ps: {
       capital: {
@@ -1829,6 +1980,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Palestina',
       },
       selected: true,
+      score: 0,
     },
     qa: {
       capital: {
@@ -1841,6 +1993,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Catar',
       },
       selected: true,
+      score: 0,
     },
     sa: {
       capital: {
@@ -1853,6 +2006,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Arabia Saudita',
       },
       selected: true,
+      score: 0,
     },
     sg: {
       capital: {
@@ -1865,6 +2019,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Singapur',
       },
       selected: true,
+      score: 0,
     },
     sy: {
       capital: {
@@ -1877,6 +2032,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Siria',
       },
       selected: true,
+      score: 0,
     },
     th: {
       capital: {
@@ -1889,6 +2045,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Tailandia',
       },
       selected: true,
+      score: 0,
     },
     tj: {
       capital: {
@@ -1901,6 +2058,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Tayikistán',
       },
       selected: true,
+      score: 0,
     },
     tl: {
       capital: {
@@ -1913,6 +2071,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Timor Oriental',
       },
       selected: true,
+      score: 0,
     },
     tm: {
       capital: {
@@ -1925,6 +2084,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Turkmenistán',
       },
       selected: true,
+      score: 0,
     },
     tr: {
       capital: {
@@ -1937,6 +2097,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Turquía',
       },
       selected: true,
+      score: 0,
     },
     tw: {
       capital: {
@@ -1949,6 +2110,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Taiwán',
       },
       selected: true,
+      score: 0,
     },
     uz: {
       capital: {
@@ -1961,6 +2123,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Uzbekistán',
       },
       selected: true,
+      score: 0,
     },
     vn: {
       capital: {
@@ -1973,6 +2136,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Vietnam',
       },
       selected: true,
+      score: 0,
     },
     ye: {
       capital: {
@@ -1985,6 +2149,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Yemen',
       },
       selected: true,
+      score: 0,
     },
   },
   Europe: {
@@ -1999,6 +2164,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Andorra',
       },
       selected: true,
+      score: 0,
     },
     al: {
       capital: {
@@ -2011,6 +2177,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Albania',
       },
       selected: true,
+      score: 0,
     },
     at: {
       capital: {
@@ -2023,6 +2190,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Austria',
       },
       selected: true,
+      score: 0,
     },
     ax: {
       capital: {
@@ -2035,6 +2203,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Åland',
       },
       selected: true,
+      score: 0,
     },
     ba: {
       capital: {
@@ -2047,6 +2216,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Bosnia y Herzegovina',
       },
       selected: true,
+      score: 0,
     },
     be: {
       capital: {
@@ -2059,6 +2229,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Bélgica',
       },
       selected: true,
+      score: 0,
     },
     bg: {
       capital: {
@@ -2071,6 +2242,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Bulgaria',
       },
       selected: true,
+      score: 0,
     },
     by: {
       capital: {
@@ -2083,6 +2255,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Bielorrusia',
       },
       selected: true,
+      score: 0,
     },
     ch: {
       capital: {
@@ -2095,6 +2268,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Suiza',
       },
       selected: true,
+      score: 0,
     },
     cy: {
       capital: {
@@ -2107,6 +2281,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Chipre',
       },
       selected: true,
+      score: 0,
     },
     cz: {
       capital: {
@@ -2119,6 +2294,7 @@ export const COUNTRIES: CountryListType = {
         es: 'República Checa',
       },
       selected: true,
+      score: 0,
     },
     de: {
       capital: {
@@ -2131,6 +2307,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Alemania',
       },
       selected: true,
+      score: 0,
     },
     dk: {
       capital: {
@@ -2143,6 +2320,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Dinamarca',
       },
       selected: true,
+      score: 0,
     },
     ee: {
       capital: {
@@ -2155,6 +2333,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Estonia',
       },
       selected: true,
+      score: 0,
     },
     es: {
       capital: {
@@ -2167,6 +2346,7 @@ export const COUNTRIES: CountryListType = {
         es: 'España',
       },
       selected: true,
+      score: 0,
     },
     fi: {
       capital: {
@@ -2179,6 +2359,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Finlandia',
       },
       selected: true,
+      score: 0,
     },
     fo: {
       capital: {
@@ -2191,6 +2372,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Islas Feroe',
       },
       selected: true,
+      score: 0,
     },
     fr: {
       capital: {
@@ -2203,6 +2385,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Francia',
       },
       selected: true,
+      score: 0,
     },
     gb: {
       capital: {
@@ -2215,6 +2398,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Reino Unido',
       },
       selected: true,
+      score: 0,
     },
     gg: {
       capital: {
@@ -2227,6 +2411,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Guernsey',
       },
       selected: true,
+      score: 0,
     },
     gi: {
       capital: {
@@ -2239,6 +2424,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Gibraltar',
       },
       selected: true,
+      score: 0,
     },
     gr: {
       capital: {
@@ -2251,6 +2437,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Grecia',
       },
       selected: true,
+      score: 0,
     },
     hr: {
       capital: {
@@ -2263,6 +2450,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Croacia',
       },
       selected: true,
+      score: 0,
     },
     hu: {
       capital: {
@@ -2275,6 +2463,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Hungría',
       },
       selected: true,
+      score: 0,
     },
     ie: {
       capital: {
@@ -2287,6 +2476,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Irlanda',
       },
       selected: true,
+      score: 0,
     },
     im: {
       capital: {
@@ -2299,6 +2489,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Isla de Man',
       },
       selected: true,
+      score: 0,
     },
     is: {
       capital: {
@@ -2311,6 +2502,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Islandia',
       },
       selected: true,
+      score: 0,
     },
     it: {
       capital: {
@@ -2323,6 +2515,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Italia',
       },
       selected: true,
+      score: 0,
     },
     je: {
       capital: {
@@ -2335,6 +2528,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Jersey',
       },
       selected: true,
+      score: 0,
     },
     li: {
       capital: {
@@ -2347,6 +2541,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Liechtenstein',
       },
       selected: true,
+      score: 0,
     },
     lt: {
       capital: {
@@ -2359,6 +2554,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Lituania',
       },
       selected: true,
+      score: 0,
     },
     lu: {
       capital: {
@@ -2371,6 +2567,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Luxemburgo',
       },
       selected: true,
+      score: 0,
     },
     lv: {
       capital: {
@@ -2383,6 +2580,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Letonia',
       },
       selected: true,
+      score: 0,
     },
     mc: {
       capital: {
@@ -2395,6 +2593,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Mónaco',
       },
       selected: true,
+      score: 0,
     },
     md: {
       capital: {
@@ -2407,6 +2606,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Moldavia',
       },
       selected: true,
+      score: 0,
     },
     me: {
       capital: {
@@ -2419,6 +2619,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Montenegro',
       },
       selected: true,
+      score: 0,
     },
     mk: {
       capital: {
@@ -2431,6 +2632,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Macedonia del Norte',
       },
       selected: true,
+      score: 0,
     },
     mt: {
       capital: {
@@ -2443,6 +2645,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Malta',
       },
       selected: true,
+      score: 0,
     },
     nl: {
       capital: {
@@ -2455,6 +2658,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Países Bajos',
       },
       selected: true,
+      score: 0,
     },
     no: {
       capital: {
@@ -2467,6 +2671,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Noruega',
       },
       selected: true,
+      score: 0,
     },
     pl: {
       capital: {
@@ -2479,6 +2684,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Polonia',
       },
       selected: true,
+      score: 0,
     },
     pt: {
       capital: {
@@ -2491,6 +2697,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Portugal',
       },
       selected: true,
+      score: 0,
     },
     ro: {
       capital: {
@@ -2503,6 +2710,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Rumania',
       },
       selected: true,
+      score: 0,
     },
     rs: {
       capital: {
@@ -2515,6 +2723,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Serbia',
       },
       selected: true,
+      score: 0,
     },
     ru: {
       capital: {
@@ -2527,6 +2736,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Rusia',
       },
       selected: true,
+      score: 0,
     },
     se: {
       capital: {
@@ -2539,6 +2749,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Suecia',
       },
       selected: true,
+      score: 0,
     },
     si: {
       capital: {
@@ -2551,6 +2762,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Eslovenia',
       },
       selected: true,
+      score: 0,
     },
     sj: {
       capital: {
@@ -2563,6 +2775,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Svalbard y Jan Mayen',
       },
       selected: true,
+      score: 0,
     },
     sk: {
       capital: {
@@ -2575,6 +2788,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Eslovaquia',
       },
       selected: true,
+      score: 0,
     },
     sm: {
       capital: {
@@ -2587,6 +2801,7 @@ export const COUNTRIES: CountryListType = {
         es: 'San Marino',
       },
       selected: true,
+      score: 0,
     },
     ua: {
       capital: {
@@ -2599,6 +2814,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Ucrania',
       },
       selected: true,
+      score: 0,
     },
     va: {
       capital: {
@@ -2611,6 +2827,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Ciudad del Vaticano',
       },
       selected: true,
+      score: 0,
     },
     xk: {
       capital: {
@@ -2623,6 +2840,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Kosovo',
       },
       selected: true,
+      score: 0,
     },
   },
   Oceania: {
@@ -2637,6 +2855,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Samoa Americana',
       },
       selected: true,
+      score: 0,
     },
     au: {
       capital: {
@@ -2649,6 +2868,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Australia',
       },
       selected: true,
+      score: 0,
     },
     cc: {
       capital: {
@@ -2661,6 +2881,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Islas Cocos',
       },
       selected: true,
+      score: 0,
     },
     ck: {
       capital: {
@@ -2673,6 +2894,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Islas Cook',
       },
       selected: true,
+      score: 0,
     },
     cx: {
       capital: {
@@ -2685,6 +2907,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Isla de Navidad',
       },
       selected: true,
+      score: 0,
     },
     fj: {
       capital: {
@@ -2697,6 +2920,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Fiyi',
       },
       selected: true,
+      score: 0,
     },
     fm: {
       capital: {
@@ -2709,6 +2933,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Micronesia',
       },
       selected: true,
+      score: 0,
     },
     gu: {
       capital: {
@@ -2721,6 +2946,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Guam',
       },
       selected: true,
+      score: 0,
     },
     ki: {
       capital: {
@@ -2733,6 +2959,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Kiribati',
       },
       selected: true,
+      score: 0,
     },
     mh: {
       capital: {
@@ -2745,6 +2972,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Islas Marshall',
       },
       selected: true,
+      score: 0,
     },
     mp: {
       capital: {
@@ -2757,6 +2985,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Islas Marianas del Norte',
       },
       selected: true,
+      score: 0,
     },
     nc: {
       capital: {
@@ -2769,6 +2998,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Nueva Caledonia',
       },
       selected: true,
+      score: 0,
     },
     nf: {
       capital: {
@@ -2781,6 +3011,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Isla Norfolk',
       },
       selected: true,
+      score: 0,
     },
     nr: {
       capital: {
@@ -2793,6 +3024,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Nauru',
       },
       selected: true,
+      score: 0,
     },
     nu: {
       capital: {
@@ -2805,6 +3037,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Niue',
       },
       selected: true,
+      score: 0,
     },
     nz: {
       capital: {
@@ -2817,6 +3050,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Nueva Zelanda',
       },
       selected: true,
+      score: 0,
     },
     pf: {
       capital: {
@@ -2829,6 +3063,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Polinesia Francesa',
       },
       selected: true,
+      score: 0,
     },
     pg: {
       capital: {
@@ -2841,6 +3076,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Papúa Nueva Guinea',
       },
       selected: true,
+      score: 0,
     },
     pn: {
       capital: {
@@ -2853,6 +3089,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Islas Pitcairn',
       },
       selected: true,
+      score: 0,
     },
     pw: {
       capital: {
@@ -2865,6 +3102,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Palaos',
       },
       selected: true,
+      score: 0,
     },
     sb: {
       capital: {
@@ -2877,6 +3115,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Islas Salomón',
       },
       selected: true,
+      score: 0,
     },
     tk: {
       capital: {
@@ -2889,6 +3128,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Tokelau',
       },
       selected: true,
+      score: 0,
     },
     to: {
       capital: {
@@ -2901,6 +3141,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Tonga',
       },
       selected: true,
+      score: 0,
     },
     tv: {
       capital: {
@@ -2913,6 +3154,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Tuvalu',
       },
       selected: true,
+      score: 0,
     },
     vu: {
       capital: {
@@ -2925,6 +3167,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Vanuatu',
       },
       selected: true,
+      score: 0,
     },
     wf: {
       capital: {
@@ -2937,6 +3180,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Wallis y Futuna',
       },
       selected: true,
+      score: 0,
     },
     ws: {
       capital: {
@@ -2949,9 +3193,10 @@ export const COUNTRIES: CountryListType = {
         es: 'Samoa',
       },
       selected: true,
+      score: 0,
     },
   },
-  Antarctica: {
+  Antartica: {
     aq: {
       capital: {
         en: '',
@@ -2963,6 +3208,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Antártida',
       },
       selected: true,
+      score: 0,
     },
     bv: {
       capital: {
@@ -2975,6 +3221,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Isla Bouvet',
       },
       selected: true,
+      score: 0,
     },
     gs: {
       capital: {
@@ -2987,6 +3234,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Islas Georgias del Sur y Sándwich del Sur',
       },
       selected: true,
+      score: 0,
     },
     hm: {
       capital: {
@@ -2999,6 +3247,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Islas Heard y McDonald',
       },
       selected: true,
+      score: 0,
     },
     tf: {
       capital: {
@@ -3011,6 +3260,7 @@ export const COUNTRIES: CountryListType = {
         es: 'Tierras Australes y Antárticas Francesas',
       },
       selected: true,
+      score: 0,
     },
   },
 };
