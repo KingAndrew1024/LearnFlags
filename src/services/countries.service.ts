@@ -3,70 +3,82 @@ import { COUNTRIES } from 'src/assets/countries';
 import { ICountry } from 'src/model/ICountry';
 import { ContinentType, CountryListType } from 'src/model/ICountryList';
 
+export interface IGameOptions {
+  correctIdx: number;
+  correctCca2: string;
+  options: ICountry[];
+}
+
 Injectable({
   providedIn: 'root',
 });
 export class CountriesService {
-  private _countries: CountryListType;
+  private _countriesList: CountryListType;
   private _numOfCountries: 2 | 3 | 4 | 5 = 3;
   private numOfContinents: 1 | 2 | 3 | 4 | 5 = 5;
   private selectedContinentName?: ContinentType;
 
   constructor() {
     if (!localStorage.getItem('countries')) {
-      localStorage.setItem('countries', JSON.stringify(COUNTRIES));
-      this._countries = COUNTRIES;
+      this.setCountryList(COUNTRIES);
+      this._countriesList = COUNTRIES;
     } else {
-      this._countries = JSON.parse(localStorage.getItem('countries') as string);
+      this._countriesList = JSON.parse(
+        localStorage.getItem('countries') as string
+      );
     }
   }
 
   private reloadCountries() {
-    this._countries = JSON.parse(localStorage.getItem('countries')!);
+    this._countriesList = JSON.parse(localStorage.getItem('countries')!);
   }
 
   get countries() {
-    return this._countries;
+    return this._countriesList;
   }
 
   get numOfCountries() {
     return this._numOfCountries;
   }
 
-  getSelectedCountries() {
-    const selectedFlags: any = {};
-    Object.keys(this._countries).forEach((continent) => {
+  /**
+   *
+   * @returns All selected countries in all continents
+   */
+  getSelectedCountries(): CountryListType {
+    const selectedCountriesMap: any = {};
+    Object.keys(this._countriesList).forEach((continent) => {
       const continent2: ContinentType = continent as ContinentType;
-      selectedFlags[continent] = {};
-      Object.keys(this._countries[continent2]).forEach((countryCode) => {
-        if (this._countries[continent2][countryCode].selected) {
-          selectedFlags[continent][countryCode] =
-            this._countries[continent2][countryCode];
+      selectedCountriesMap[continent2] = {};
+      Object.keys(this._countriesList[continent2]).forEach((countryCode) => {
+        if (this._countriesList[continent2][countryCode].selected) {
+          selectedCountriesMap[continent2][countryCode] =
+            this._countriesList[continent2][countryCode];
         }
       });
     });
 
-    Object.keys(selectedFlags).forEach((continent) => {
-      if (Object.keys(selectedFlags[continent]).length === 0) {
-        delete selectedFlags[continent];
+    Object.keys(selectedCountriesMap).forEach((continent) => {
+      if (Object.keys(selectedCountriesMap[continent]).length === 0) {
+        delete selectedCountriesMap[continent];
       }
     });
 
-    return selectedFlags as CountryListType;
+    return selectedCountriesMap as CountryListType;
   }
 
-  selectCountry(
+  toggleCountry(
     continent: ContinentType,
     countryCode: string,
     selected: boolean
   ) {
-    this._countries[continent][countryCode].selected = selected;
-    localStorage.setItem('countries', JSON.stringify(this._countries));
+    this._countriesList[continent][countryCode].selected = selected;
+    this.setCountryList(this._countriesList);
   }
 
   selectRandomContinents(length: 1 | 2 | 3 | 4 | 5) {
-    const selectedFlags = this.getSelectedCountries();
-    const continents = Object.keys(selectedFlags) as ContinentType[];
+    const allSelectedCountries = this.getSelectedCountries();
+    const continents = Object.keys(allSelectedCountries) as ContinentType[];
 
     const selectedContinents: ContinentType[] = [];
     while (selectedContinents.length < length) {
@@ -93,20 +105,16 @@ export class CountriesService {
     return selectedCountry;
   }
 
-  createCountryOptions() {
-    const optionsOutput: {
-      correctIdx: number;
-      correctCca2: string;
-      options: ICountry[];
-    } = {
+  createCountryOptions(): IGameOptions {
+    const optionsOutput: IGameOptions = {
       correctIdx: -1,
       correctCca2: '',
       options: [],
     };
 
     this.reloadCountries();
-    //example if numOfContinents = 3, then otputs sth like this ['America', 'Europe', 'Africa']
 
+    //example if numOfContinents = 3, then otputs sth like this ['America', 'Europe', 'Africa']
     const continents = this.selectRandomContinents(this.numOfContinents);
 
     let continentSet = new Set<ContinentType>();
@@ -146,16 +154,16 @@ export class CountriesService {
   }
 
   updateCountry(country: ICountry) {
-    const currentCounties: CountryListType = JSON.parse(
+    const currentCountries: CountryListType = JSON.parse(
       localStorage.getItem('countries')!
     );
 
-    currentCounties[this.selectedContinentName!][country.cca2] = country;
+    currentCountries[this.selectedContinentName!][country.cca2] = country;
 
-    localStorage.setItem('countries', JSON.stringify(currentCounties));
+    this.setCountryList(currentCountries);
   }
 
-  updateContinentCountries(countryList: CountryListType) {
+  setCountryList(countryList: CountryListType) {
     localStorage.setItem('countries', JSON.stringify(countryList));
   }
 

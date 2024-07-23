@@ -13,15 +13,19 @@ export class ConfigComponent implements OnInit {
   public folder!: string;
   private activatedRoute = inject(ActivatedRoute);
 
-  continentState: {
-    [k: string]: { checked: boolean; indeterminateState: boolean };
+  public continentsState: {
+    [k: string]: {
+      checked: boolean;
+      indeterminateState: boolean;
+      totalSelected: number;
+    };
   } = {
-    America: { checked: false, indeterminateState: false },
-    Europe: { checked: false, indeterminateState: false },
-    Africa: { checked: false, indeterminateState: false },
-    Asia: { checked: false, indeterminateState: false },
-    Oceania: { checked: false, indeterminateState: false },
-    Antartica: { checked: false, indeterminateState: false },
+    America: { checked: false, indeterminateState: false, totalSelected: 0 },
+    Europe: { checked: false, indeterminateState: false, totalSelected: 0 },
+    Africa: { checked: false, indeterminateState: false, totalSelected: 0 },
+    Asia: { checked: false, indeterminateState: false, totalSelected: 0 },
+    Oceania: { checked: false, indeterminateState: false, totalSelected: 0 },
+    Antartica: { checked: false, indeterminateState: false, totalSelected: 0 },
   };
   constructor(private countriesSrv: CountriesService) {
     this.countries = this.countriesSrv.countries;
@@ -34,43 +38,86 @@ export class ConfigComponent implements OnInit {
   }
 
   private initContinentState() {
+    const allSelectedCountries = this.countriesSrv.getSelectedCountries();
+
     Object.keys(this.countries).forEach((continent) => {
-      this.updateContinentState(continent as ContinentType);
+      this.defineContinentsState(
+        allSelectedCountries,
+        continent as ContinentType
+      );
     });
   }
 
-  private updateContinentState(continent: ContinentType) {
-    const totalCountries = Object.keys(
-      this.countries[continent as ContinentType]
+  private defineContinentsState(
+    allSelectedCountries: CountryListType,
+    continentName: ContinentType
+  ) {
+    const totalCountriesInContinent = Object.keys(
+      this.countries[continentName as ContinentType]
     ).length;
-    const continentCountries =
-      this.countriesSrv.getSelectedCountries()[continent];
+
+    const continentCountries = allSelectedCountries[continentName];
+
     const selectedCountriesLength = Object.keys(
       continentCountries || {}
     ).length;
 
-    this.continentState[continent].checked =
-      selectedCountriesLength == totalCountries;
-    this.continentState[continent].indeterminateState =
-      selectedCountriesLength > 0 && selectedCountriesLength < totalCountries;
+    this.continentsState[continentName].totalSelected = selectedCountriesLength;
+
+    this.continentsState[continentName].checked =
+      selectedCountriesLength == totalCountriesInContinent;
+
+    this.continentsState[continentName].indeterminateState =
+      selectedCountriesLength > 0 &&
+      selectedCountriesLength < totalCountriesInContinent;
   }
 
-  selectCountry(continent: string, countryCode: string, selected: boolean) {
-    this.countriesSrv.selectCountry(
-      continent as ContinentType,
+  toggleCountry(continentName: string, countryCode: string, selected: boolean) {
+    this.countriesSrv.toggleCountry(
+      continentName as ContinentType,
       countryCode,
       selected
     );
 
-    //this.updateContinentState(continent as ContinentType);
+    this.continentsState[continentName].totalSelected += selected ? 1 : -1;
+
+    const totalCountriesInContinent = Object.keys(
+      this.countries[continentName as ContinentType]
+    ).length;
+
+    const totalSelected = this.continentsState[continentName].totalSelected;
+
+    if (totalSelected > 0 && totalSelected < totalCountriesInContinent) {
+      this.continentsState[continentName].indeterminateState = true;
+      this.continentsState[continentName].checked = false;
+    } else {
+      this.continentsState[continentName].indeterminateState = false;
+      if (totalSelected == totalCountriesInContinent) {
+        this.continentsState[continentName].checked = true;
+      }
+    }
   }
 
-  checkContinent(key: string) {
-    Object.keys(this.countries[key as ContinentType]).forEach((countryCode) => {
-      this.countries[key as ContinentType][countryCode].selected =
-        !this.continentState[key].checked;
-    });
-    this.countriesSrv.updateContinentCountries(this.countries);
-    this.continentState[key].indeterminateState = false;
+  toggleContinent(continentName: string) {
+    Object.keys(this.countries[continentName as ContinentType]).forEach(
+      (countryCode) => {
+        this.countries[continentName as ContinentType][countryCode].selected =
+          !this.continentsState[continentName].checked;
+      }
+    );
+
+    this.countriesSrv.setCountryList(this.countries);
+
+    this.continentsState[continentName].indeterminateState = false;
+
+    this.continentsState[continentName].totalSelected = 0;
+
+    //checks the prevoius checkbox state
+    if (!this.continentsState[continentName].checked) {
+      const len = Object.keys(
+        this.countries[continentName as ContinentType]
+      ).length;
+      this.continentsState[continentName].totalSelected = len;
+    }
   }
 }

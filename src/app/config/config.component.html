@@ -19,12 +19,14 @@
       <ion-item-group *ngFor="let item of countries | keyvalue">
         <ion-item-divider color="light" sticky>
           <ion-checkbox
-            [(ngModel)]="continentState[item.key].checked"
-            [indeterminate]="continentState[item.key].indeterminateState"
-            (click)="checkContinent(item.key)"
+            [(ngModel)]="continentsState[item.key].checked"
+            [indeterminate]="continentsState[item.key].indeterminateState"
+            (click)="toggleContinent(item.key)"
             labelPlacement="end"
           >
-            <h1>{{ item.key }}</h1>
+            <h1>
+              {{ item.key }} ({{ continentsState[item.key].totalSelected }})
+            </h1>
           </ion-checkbox>
         </ion-item-divider>
         <ion-item *ngFor="let country of item.value | keyvalue">
@@ -32,11 +34,37 @@
             labelPlacement="end"
             [checked]="country.value.selected"
             (ionChange)="
-              selectCountry(item.key, country.key, $event.detail.checked)
+              toggleCountry(item.key, country.key, $event.detail.checked)
             "
           >
             {{ country.value.name.es }}
           </ion-toggle>
+          <div
+            slot="end"
+            style="
+              position: relative;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              text-align: center;
+              font-size: 12px;
+              width: 80px;
+              height: 100%;
+            "
+          >
+            {{ country.value.percentage }}%
+            <div
+              style="
+                background-color: greenyellow;
+                position: absolute;
+                top: 0;
+                left: 0;
+                height: 100%;
+                z-index: -1;
+              "
+              [ngStyle]="{ width: country.value.percentage + '%' }"
+            ></div>
+          </div>
         </ion-item>
       </ion-item-group>
     </ion-list>

@@ -1,10 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 import { ICountry } from 'src/model/ICountry';
 import { ContinentType } from 'src/model/ICountryList';
-import { CountriesService } from 'src/services/countries.service';
+import { CountriesService, IGameOptions } from 'src/services/countries.service';
 interface IChecked {
   checked?: boolean;
 }
+
 @Component({
   selector: 'app-flags1-page',
   templateUrl: './flags1-page.component.html',
@@ -84,11 +85,8 @@ export class Flags1PageComponent implements OnInit {
   getNewFlagSet() {
     this.attempts = 0;
 
-    const countryOptions: {
-      correctIdx: number;
-      correctCca2: string;
-      options: ICountry[];
-    } = this.countriesSrv.createCountryOptions();
+    const countryOptions: IGameOptions =
+      this.countriesSrv.createCountryOptions();
     this.options = countryOptions.options.map((c) => ({
       ...c,
       checked: false,
@@ -96,10 +94,8 @@ export class Flags1PageComponent implements OnInit {
 
     this.options[countryOptions.correctIdx].timesPresented++;
     this.correctCountry = countryOptions.options[countryOptions.correctIdx];
-
-    /* console.log(countryOptions);
-    console.log(this.options); */
   }
+
   showFlagOverlay(img: HTMLElement, show = true) {
     const viewportOffset = img.getBoundingClientRect();
 
