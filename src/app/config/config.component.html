@@ -37,7 +37,8 @@
               toggleCountry(item.key, country.key, $event.detail.checked)
             "
           >
-            {{ country.value.name.es }}
+            <div>{{ country.value.name.es }}</div>
+            <div class="text-small">{{ country.value.capital.es }}</div>
           </ion-toggle>
           <div
             slot="end"
@@ -46,16 +47,18 @@
               display: flex;
               align-items: center;
               justify-content: center;
+              flex-direction: column;
               text-align: center;
               font-size: 12px;
               width: 80px;
               height: 100%;
             "
           >
-            {{ country.value.percentage }}%
+            <span> Mostrado: {{ country.value.timesPresented }} </span>
+            <span> {{ country.value.percentage }}% </span>
             <div
               style="
-                background-color: greenyellow;
+                background: lime;
                 position: absolute;
                 top: 0;
                 left: 0;

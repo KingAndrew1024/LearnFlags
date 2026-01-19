@@ -7,23 +7,25 @@
   </ion-toolbar>
 </ion-header>
 <ion-content>
-  <ion-list>
-    <ion-item>
+  <ion-list lines="none">
+    <ion-item lines="none">
       <h1 class="centered">
-        {{ correctCountry.name.es || correctCountry.name.en }}
+        <strong>
+          {{ correctCountry.name.es || correctCountry.name.en }}
+        </strong>
       </h1>
     </ion-item>
     <ng-content *ngFor="let option of options">
-      <ion-item-divider></ion-item-divider>
+      <ion-item-divider />
       <ion-item (click)="selectOption(image, option)">
         <div class="column">
           <img
             src="../../../assets/flags/{{ option.cca2 }}.svg"
-            alt="flag of {{ option.name.en }}"
+            alt="flag of {{ option.name.es }}"
             #image
           />
           <p>
-            {{ option.capital.en || "Sin capital" }}
+            {{ option.capital.es || option.capital.en || "Sin capital" }}
             <!-- &rarr;
             {{ option.percentage }}% -->
           </p>

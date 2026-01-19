@@ -7,5 +7,41 @@
   </ion-toolbar>
 </ion-header>
 <ion-content>
-  <p>capitals-page works!</p>
+  <ion-list lines="none">
+    <ion-item class="no-bg" lines="none">
+      <ion-icon
+        name="airplane"
+        slot="end"
+        name="flag"
+        *ngIf="!hintShown"
+        (click)="toggleHint()"
+      ></ion-icon>
+      <ion-avatar slot="end" *ngIf="hintShown" (click)="toggleHint()">
+        <img src="../../../assets/flags/{{ correctCountry.cca2 }}.svg" />
+      </ion-avatar>
+
+      <h1 class="centered">
+        <strong>
+          {{ correctCountry.name.es || correctCountry.name.en }}
+        </strong>
+      </h1>
+    </ion-item>
+    <ng-content *ngFor="let option of options">
+      <ion-item-divider />
+      <ion-item (click)="selectOption(p, option)">
+        <div class="column">
+          <p #p>
+            {{ option.capital.es || option.capital.en || "Sin capital" }}
+            <!-- &rarr;
+            {{ option.percentage }}% -->
+          </p>
+          <!-- <img
+            src="../../../assets/flags/{{ option.cca2 }}.svg"
+            alt="flag of {{ option.name.es }}"
+            #image
+          /> -->
+        </div>
+      </ion-item>
+    </ng-content>
+  </ion-list>
 </ion-content>

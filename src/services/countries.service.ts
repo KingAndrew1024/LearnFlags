@@ -9,6 +9,12 @@ export interface IGameOptions {
   options: ICountry[];
 }
 
+export interface IChecked {
+  checked?: boolean;
+}
+
+export type CountryOptions = ICountry & IChecked;
+
 Injectable({
   providedIn: 'root',
 });
@@ -165,6 +171,94 @@ export class CountriesService {
 
   setCountryList(countryList: CountryListType) {
     localStorage.setItem('countries', JSON.stringify(countryList));
+  }
+
+  //! mock initialization
+  private correctCountry: ICountry = {
+    capital: {
+      en: '',
+      es: '',
+    },
+    cca2: '  ',
+    name: {
+      en: '',
+      es: '',
+    },
+    selected: false,
+    timesPresented: 0,
+    accumulatedScore: 0,
+    percentage: 0,
+  };
+  private attempts = 0;
+  private debouncing = false;
+
+  selectOption(
+    img: HTMLElement,
+    country: CountryOptions,
+    overlay: HTMLElement
+  ) {
+    return new Promise((resolve, reject) => {
+      if (this.debouncing) return reject();
+
+      if (!country.checked) {
+        country.checked = true;
+        this.attempts++;
+      }
+
+      this.showFlagOverlay(img, overlay);
+
+      if (country.cca2 === this.correctCountry.cca2) {
+        this.debouncing = true;
+        overlay.classList.add('success');
+        overlay.classList.remove('fail');
+
+        country.accumulatedScore += 1 / this.attempts;
+        country.percentage = +(
+          (country.accumulatedScore / country.timesPresented) *
+          100
+        ).toFixed(2.2);
+
+        delete country.checked;
+        this.updateCountry(country);
+
+        setTimeout(() => {
+          overlay.style.display = 'none';
+          resolve(undefined);
+          this.debouncing = false;
+        }, 1000);
+      } else {
+        overlay.classList.add('fail');
+        overlay.classList.remove('success');
+        setTimeout(() => {
+          overlay.style.display = 'none';
+        }, 1000);
+      }
+    });
+  }
+
+  showFlagOverlay(img: HTMLElement, overlay: HTMLElement) {
+    const viewportOffset = img.getBoundingClientRect();
+
+    overlay.style.left = viewportOffset.left + 'px';
+    overlay.style.top = viewportOffset.top + 'px';
+    overlay.style.width = viewportOffset.width + 'px';
+    overlay.style.height = viewportOffset.height + 'px';
+    overlay.style.display = 'flex';
+  }
+
+  getNewFlagSet() {
+    this.attempts = 0;
+
+    const countryOptions: IGameOptions = this.createCountryOptions();
+    const options = countryOptions.options.map((c) => ({
+      ...c,
+      checked: false,
+    }));
+
+    options[countryOptions.correctIdx].timesPresented++;
+    this.correctCountry = countryOptions.options[countryOptions.correctIdx];
+
+    return { options, correctCountry: this.correctCountry };
   }
 
   private getRandomInteger(max: number) {

@@ -6,7 +6,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Luanda',
-        es: '',
+        es: 'Luanda',
       },
       cca2: 'ao',
       name: {
@@ -21,7 +21,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Ouagadougou',
-        es: '',
+        es: 'Uagadugú',
       },
       cca2: 'bf',
       name: {
@@ -36,7 +36,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Gitega',
-        es: '',
+        es: 'Gitega',
       },
       cca2: 'bi',
       name: {
@@ -51,7 +51,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Porto-Novo',
-        es: '',
+        es: 'Porto Novo',
       },
       cca2: 'bj',
       name: {
@@ -66,7 +66,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Gaborone',
-        es: '',
+        es: 'Gaborone',
       },
       cca2: 'bw',
       name: {
@@ -81,7 +81,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Kinshasa',
-        es: '',
+        es: 'Kinshasa',
       },
       cca2: 'cd',
       name: {
@@ -96,7 +96,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Bangui',
-        es: '',
+        es: 'Bangui',
       },
       cca2: 'cf',
       name: {
@@ -111,7 +111,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Brazzaville',
-        es: '',
+        es: 'Brazzaville',
       },
       cca2: 'cg',
       name: {
@@ -126,7 +126,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Yamoussoukro',
-        es: '',
+        es: 'Yamusukro',
       },
       cca2: 'ci',
       name: {
@@ -141,7 +141,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Yaoundé',
-        es: '',
+        es: 'Yaundé',
       },
       cca2: 'cm',
       name: {
@@ -156,7 +156,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Praia',
-        es: '',
+        es: 'Praia',
       },
       cca2: 'cv',
       name: {
@@ -171,7 +171,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Djibouti',
-        es: '',
+        es: 'Djibouti',
       },
       cca2: 'dj',
       name: {
@@ -186,7 +186,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Algiers',
-        es: '',
+        es: 'Argel',
       },
       cca2: 'dz',
       name: {
@@ -201,7 +201,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Cairo',
-        es: '',
+        es: 'El Cairo',
       },
       cca2: 'eg',
       name: {
@@ -215,8 +215,8 @@ export const COUNTRIES: CountryListType = {
     eh: {
       accumulatedScore: 0,
       capital: {
-        en: 'El Aaiún',
-        es: '',
+        en: 'Laâyoune',
+        es: 'El Aaiún',
       },
       cca2: 'eh',
       name: {
@@ -231,7 +231,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Asmara',
-        es: '',
+        es: 'Asmara',
       },
       cca2: 'er',
       name: {
@@ -246,7 +246,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Addis Ababa',
-        es: '',
+        es: 'Addis Abeba',
       },
       cca2: 'et',
       name: {
@@ -261,7 +261,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Libreville',
-        es: '',
+        es: 'Libreville',
       },
       cca2: 'ga',
       name: {
@@ -276,7 +276,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Accra',
-        es: '',
+        es: 'Accra',
       },
       cca2: 'gh',
       name: {
@@ -291,7 +291,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Banjul',
-        es: '',
+        es: 'Banjul',
       },
       cca2: 'gm',
       name: {
@@ -306,7 +306,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Conakry',
-        es: '',
+        es: 'Conakry',
       },
       cca2: 'gn',
       name: {
@@ -321,7 +321,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Malabo',
-        es: '',
+        es: 'Malabo',
       },
       cca2: 'gq',
       name: {
@@ -336,7 +336,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Bissau',
-        es: '',
+        es: 'Bissau',
       },
       cca2: 'gw',
       name: {
@@ -351,7 +351,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Diego Garcia',
-        es: '',
+        es: 'Diego Garcia',
       },
       cca2: 'io',
       name: {
@@ -366,7 +366,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Nairobi',
-        es: '',
+        es: 'Nairobi',
       },
       cca2: 'ke',
       name: {
@@ -381,7 +381,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Moroni',
-        es: '',
+        es: 'Moroni',
       },
       cca2: 'km',
       name: {
@@ -396,7 +396,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Monrovia',
-        es: '',
+        es: 'Monrovia',
       },
       cca2: 'lr',
       name: {
@@ -411,7 +411,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Maseru',
-        es: '',
+        es: 'Maseru',
       },
       cca2: 'ls',
       name: {
@@ -426,7 +426,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Tripoli',
-        es: '',
+        es: 'Trípoli',
       },
       cca2: 'ly',
       name: {
@@ -441,7 +441,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Rabat',
-        es: '',
+        es: 'Rabat',
       },
       cca2: 'ma',
       name: {
@@ -456,7 +456,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Antananarivo',
-        es: '',
+        es: 'Antananarivo',
       },
       cca2: 'mg',
       name: {
@@ -471,7 +471,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Bamako',
-        es: '',
+        es: 'Bamako',
       },
       cca2: 'ml',
       name: {
@@ -486,7 +486,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Nouakchott',
-        es: '',
+        es: 'Nuakchot',
       },
       cca2: 'mr',
       name: {
@@ -501,7 +501,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Port Louis',
-        es: '',
+        es: 'Port Louis',
       },
       cca2: 'mu',
       name: {
@@ -516,7 +516,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Lilongwe',
-        es: '',
+        es: 'Lilongwe',
       },
       cca2: 'mw',
       name: {
@@ -531,7 +531,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Maputo',
-        es: '',
+        es: 'Maputo',
       },
       cca2: 'mz',
       name: {
@@ -546,7 +546,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Windhoek',
-        es: '',
+        es: 'Windhoek',
       },
       cca2: 'na',
       name: {
@@ -561,7 +561,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Niamey',
-        es: '',
+        es: 'Niamey',
       },
       cca2: 'ne',
       name: {
@@ -576,7 +576,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Abuja',
-        es: '',
+        es: 'Abuja',
       },
       cca2: 'ng',
       name: {
@@ -591,7 +591,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Saint-Denis',
-        es: '',
+        es: 'Saint-Denis',
       },
       cca2: 're',
       name: {
@@ -606,7 +606,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Kigali',
-        es: '',
+        es: 'Kigali',
       },
       cca2: 'rw',
       name: {
@@ -621,7 +621,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Victoria',
-        es: '',
+        es: 'Victoria',
       },
       cca2: 'sc',
       name: {
@@ -636,7 +636,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Khartoum',
-        es: '',
+        es: 'Jartum',
       },
       cca2: 'sd',
       name: {
@@ -651,7 +651,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Jamestown',
-        es: '',
+        es: 'Jamestown',
       },
       cca2: 'sh',
       name: {
@@ -666,7 +666,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Freetown',
-        es: '',
+        es: 'Freetown',
       },
       cca2: 'sl',
       name: {
@@ -681,7 +681,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Dakar',
-        es: '',
+        es: 'Dakar',
       },
       cca2: 'sn',
       name: {
@@ -696,7 +696,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Mogadishu',
-        es: '',
+        es: 'Mogadiscio',
       },
       cca2: 'so',
       name: {
@@ -711,7 +711,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Juba',
-        es: '',
+        es: 'Yuba',
       },
       cca2: 'ss',
       name: {
@@ -726,7 +726,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'São Tomé',
-        es: '',
+        es: 'Santo Tomé',
       },
       cca2: 'st',
       name: {
@@ -741,7 +741,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Mbabane',
-        es: '',
+        es: 'Mbabane',
       },
       cca2: 'sz',
       name: {
@@ -756,7 +756,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: "N'Djamena",
-        es: '',
+        es: 'Nyamena',
       },
       cca2: 'td',
       name: {
@@ -771,7 +771,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Lomé',
-        es: '',
+        es: 'Lomé',
       },
       cca2: 'tg',
       name: {
@@ -786,7 +786,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Tunis',
-        es: '',
+        es: 'Túnez',
       },
       cca2: 'tn',
       name: {
@@ -801,7 +801,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Dodoma',
-        es: '',
+        es: 'Dodoma',
       },
       cca2: 'tz',
       name: {
@@ -816,7 +816,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Kampala',
-        es: '',
+        es: 'Kampala',
       },
       cca2: 'ug',
       name: {
@@ -831,7 +831,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Mamoudzou',
-        es: '',
+        es: 'Mamoudzou',
       },
       cca2: 'yt',
       name: {
@@ -846,7 +846,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Pretoria',
-        es: '',
+        es: 'Pretoria',
       },
       cca2: 'za',
       name: {
@@ -861,7 +861,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Lusaka',
-        es: '',
+        es: 'Lusaka',
       },
       cca2: 'zm',
       name: {
@@ -876,7 +876,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Harare',
-        es: '',
+        es: 'Harare',
       },
       cca2: 'zw',
       name: {
@@ -893,7 +893,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: "Saint John's",
-        es: '',
+        es: 'Saint John',
       },
       cca2: 'ag',
       name: {
@@ -908,7 +908,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'The Valley',
-        es: '',
+        es: 'El Valle',
       },
       cca2: 'ai',
       name: {
@@ -923,7 +923,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Buenos Aires',
-        es: '',
+        es: 'Buenos Aires',
       },
       cca2: 'ar',
       name: {
@@ -938,7 +938,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Oranjestad',
-        es: '',
+        es: 'Oranjestad',
       },
       cca2: 'aw',
       name: {
@@ -953,7 +953,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Bridgetown',
-        es: '',
+        es: 'Bridgetown',
       },
       cca2: 'bb',
       name: {
@@ -968,7 +968,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Gustavia',
-        es: '',
+        es: 'Gustavia',
       },
       cca2: 'bl',
       name: {
@@ -983,7 +983,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Hamilton',
-        es: '',
+        es: 'Hamilton',
       },
       cca2: 'bm',
       name: {
@@ -998,7 +998,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Sucre',
-        es: '',
+        es: 'Sucre',
       },
       cca2: 'bo',
       name: {
@@ -1013,7 +1013,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Kralendijk',
-        es: '',
+        es: 'Kralendijk',
       },
       cca2: 'bq',
       name: {
@@ -1028,7 +1028,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Brasília',
-        es: '',
+        es: 'Brasilia',
       },
       cca2: 'br',
       name: {
@@ -1043,7 +1043,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Nassau',
-        es: '',
+        es: 'Nassau',
       },
       cca2: 'bs',
       name: {
@@ -1058,7 +1058,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Belmopan',
-        es: '',
+        es: 'Belmopan',
       },
       cca2: 'bz',
       name: {
@@ -1073,7 +1073,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Ottawa',
-        es: '',
+        es: 'Ottawa',
       },
       cca2: 'ca',
       name: {
@@ -1088,7 +1088,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Santiago',
-        es: '',
+        es: 'Santiago de Chile',
       },
       cca2: 'cl',
       name: {
@@ -1103,7 +1103,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Bogotá',
-        es: '',
+        es: 'Bogotá',
       },
       cca2: 'co',
       name: {
@@ -1118,7 +1118,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'San José',
-        es: '',
+        es: 'San José',
       },
       cca2: 'cr',
       name: {
@@ -1133,7 +1133,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Havana',
-        es: '',
+        es: 'La Habana',
       },
       cca2: 'cu',
       name: {
@@ -1148,7 +1148,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Willemstad',
-        es: '',
+        es: 'Willemstad',
       },
       cca2: 'cw',
       name: {
@@ -1163,7 +1163,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Roseau',
-        es: '',
+        es: 'Roseau',
       },
       cca2: 'dm',
       name: {
@@ -1178,7 +1178,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Santo Domingo',
-        es: '',
+        es: 'Santo Domingo',
       },
       cca2: 'do',
       name: {
@@ -1193,7 +1193,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Quito',
-        es: '',
+        es: 'Quito',
       },
       cca2: 'ec',
       name: {
@@ -1208,7 +1208,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Stanley',
-        es: '',
+        es: 'Puerto Argentino',
       },
       cca2: 'fk',
       name: {
@@ -1223,7 +1223,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: "St. George's",
-        es: '',
+        es: 'Saint George',
       },
       cca2: 'gd',
       name: {
@@ -1238,7 +1238,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Cayenne',
-        es: '',
+        es: 'Cayena',
       },
       cca2: 'gf',
       name: {
@@ -1253,7 +1253,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Nuuk',
-        es: '',
+        es: 'Nuuk',
       },
       cca2: 'gl',
       name: {
@@ -1268,7 +1268,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Basse-Terre',
-        es: '',
+        es: 'Basse-Terre',
       },
       cca2: 'gp',
       name: {
@@ -1283,7 +1283,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Guatemala City',
-        es: '',
+        es: 'Ciudad de Guatemala',
       },
       cca2: 'gt',
       name: {
@@ -1298,7 +1298,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Georgetown',
-        es: '',
+        es: 'Georgetown',
       },
       cca2: 'gy',
       name: {
@@ -1313,7 +1313,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Tegucigalpa',
-        es: '',
+        es: 'Tegucigalpa',
       },
       cca2: 'hn',
       name: {
@@ -1328,7 +1328,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Port-au-Prince',
-        es: '',
+        es: 'Puerto Príncipe',
       },
       cca2: 'ht',
       name: {
@@ -1343,7 +1343,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Kingston',
-        es: '',
+        es: 'Kingston',
       },
       cca2: 'jm',
       name: {
@@ -1358,7 +1358,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Basseterre',
-        es: '',
+        es: 'Basseterre',
       },
       cca2: 'kn',
       name: {
@@ -1373,7 +1373,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'George Town',
-        es: '',
+        es: 'George Town',
       },
       cca2: 'ky',
       name: {
@@ -1388,7 +1388,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Castries',
-        es: '',
+        es: 'Castries',
       },
       cca2: 'lc',
       name: {
@@ -1403,7 +1403,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Marigot',
-        es: '',
+        es: 'Marigot',
       },
       cca2: 'mf',
       name: {
@@ -1418,7 +1418,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Fort-de-France',
-        es: '',
+        es: 'Fort-de-France',
       },
       cca2: 'mq',
       name: {
@@ -1433,7 +1433,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Plymouth',
-        es: '',
+        es: 'Plymouth',
       },
       cca2: 'ms',
       name: {
@@ -1448,7 +1448,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Mexico City',
-        es: '',
+        es: 'Ciudad de México',
       },
       cca2: 'mx',
       name: {
@@ -1463,7 +1463,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Managua',
-        es: '',
+        es: 'Managua',
       },
       cca2: 'ni',
       name: {
@@ -1478,7 +1478,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Panama City',
-        es: '',
+        es: 'Ciudad de Panamá',
       },
       cca2: 'pa',
       name: {
@@ -1493,7 +1493,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Lima',
-        es: '',
+        es: 'Lima',
       },
       cca2: 'pe',
       name: {
@@ -1508,7 +1508,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Saint-Pierre',
-        es: '',
+        es: 'San Pedro',
       },
       cca2: 'pm',
       name: {
@@ -1523,7 +1523,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'San Juan',
-        es: '',
+        es: 'San Juan',
       },
       cca2: 'pr',
       name: {
@@ -1538,7 +1538,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Asunción',
-        es: '',
+        es: 'Asunción',
       },
       cca2: 'py',
       name: {
@@ -1553,7 +1553,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Paramaribo',
-        es: '',
+        es: 'Paramaribo',
       },
       cca2: 'sr',
       name: {
@@ -1568,7 +1568,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'San Salvador',
-        es: '',
+        es: 'San Salvador',
       },
       cca2: 'sv',
       name: {
@@ -1583,7 +1583,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Philipsburg',
-        es: '',
+        es: 'Philipsburg',
       },
       cca2: 'sx',
       name: {
@@ -1598,7 +1598,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Cockburn Town',
-        es: '',
+        es: 'Cockburn Town',
       },
       cca2: 'tc',
       name: {
@@ -1613,7 +1613,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Port of Spain',
-        es: '',
+        es: 'Puerto España',
       },
       cca2: 'tt',
       name: {
@@ -1628,7 +1628,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Washington DC',
-        es: '',
+        es: 'Washington DC',
       },
       cca2: 'um',
       name: {
@@ -1643,7 +1643,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Washington, D.C.',
-        es: '',
+        es: 'Washington, D.C.',
       },
       cca2: 'us',
       name: {
@@ -1658,7 +1658,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Montevideo',
-        es: '',
+        es: 'Montevideo',
       },
       cca2: 'uy',
       name: {
@@ -1673,7 +1673,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Kingstown',
-        es: '',
+        es: 'Kingstown',
       },
       cca2: 'vc',
       name: {
@@ -1688,7 +1688,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Caracas',
-        es: '',
+        es: 'Caracas',
       },
       cca2: 've',
       name: {
@@ -1703,7 +1703,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Road Town',
-        es: '',
+        es: 'Road Town',
       },
       cca2: 'vg',
       name: {
@@ -1718,7 +1718,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Charlotte Amalie',
-        es: '',
+        es: 'Carlota Amalia',
       },
       cca2: 'vi',
       name: {
@@ -1735,7 +1735,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: '',
-        es: '',
+        es: 'Sin capital',
       },
       cca2: 'aq',
       name: {
@@ -1750,7 +1750,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: '',
-        es: '',
+        es: 'Sin capital',
       },
       cca2: 'bv',
       name: {
@@ -1765,7 +1765,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'King Edward Point',
-        es: '',
+        es: 'Punta Rey Eduardo',
       },
       cca2: 'gs',
       name: {
@@ -1780,7 +1780,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: '',
-        es: '',
+        es: 'Sin capital',
       },
       cca2: 'hm',
       name: {
@@ -1795,7 +1795,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Port-aux-Français',
-        es: '',
+        es: 'Port-aux-Français',
       },
       cca2: 'tf',
       name: {
@@ -1812,7 +1812,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Abu Dhabi',
-        es: '',
+        es: 'Abu Dhabi',
       },
       cca2: 'ae',
       name: {
@@ -1827,7 +1827,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Kabul',
-        es: '',
+        es: 'Kabul',
       },
       cca2: 'af',
       name: {
@@ -1842,7 +1842,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Yerevan',
-        es: '',
+        es: 'Ereván',
       },
       cca2: 'am',
       name: {
@@ -1857,7 +1857,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Baku',
-        es: '',
+        es: 'Bakú',
       },
       cca2: 'az',
       name: {
@@ -1872,7 +1872,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Dhaka',
-        es: '',
+        es: 'Dhaka',
       },
       cca2: 'bd',
       name: {
@@ -1887,7 +1887,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Manama',
-        es: '',
+        es: 'Manama',
       },
       cca2: 'bh',
       name: {
@@ -1902,7 +1902,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Bandar Seri Begawan',
-        es: '',
+        es: 'Bandar Seri Begawan',
       },
       cca2: 'bn',
       name: {
@@ -1917,7 +1917,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Thimphu',
-        es: '',
+        es: 'Timbu',
       },
       cca2: 'bt',
       name: {
@@ -1932,7 +1932,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Beijing',
-        es: '',
+        es: 'Pekín',
       },
       cca2: 'cn',
       name: {
@@ -1947,7 +1947,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Tbilisi',
-        es: '',
+        es: 'Tiflis',
       },
       cca2: 'ge',
       name: {
@@ -1962,7 +1962,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'City of Victoria',
-        es: '',
+        es: 'Victoria',
       },
       cca2: 'hk',
       name: {
@@ -1977,7 +1977,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Jakarta',
-        es: '',
+        es: 'Yakarta',
       },
       cca2: 'id',
       name: {
@@ -1992,7 +1992,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Jerusalem',
-        es: '',
+        es: 'Jerusalén',
       },
       cca2: 'il',
       name: {
@@ -2007,7 +2007,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'New Delhi',
-        es: '',
+        es: 'Nueva Delhi',
       },
       cca2: 'in',
       name: {
@@ -2022,7 +2022,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Baghdad',
-        es: '',
+        es: 'Bagdad',
       },
       cca2: 'iq',
       name: {
@@ -2037,7 +2037,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Tehran',
-        es: '',
+        es: 'Teherán',
       },
       cca2: 'ir',
       name: {
@@ -2052,7 +2052,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Amman',
-        es: '',
+        es: 'Ammán',
       },
       cca2: 'jo',
       name: {
@@ -2067,7 +2067,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Tokyo',
-        es: '',
+        es: 'Tokio',
       },
       cca2: 'jp',
       name: {
@@ -2082,7 +2082,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Bishkek',
-        es: '',
+        es: 'Bishkek',
       },
       cca2: 'kg',
       name: {
@@ -2097,7 +2097,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Phnom Penh',
-        es: '',
+        es: 'Phnom Penh',
       },
       cca2: 'kh',
       name: {
@@ -2112,7 +2112,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Pyongyang',
-        es: '',
+        es: 'Pyongyang',
       },
       cca2: 'kp',
       name: {
@@ -2127,7 +2127,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Seoul',
-        es: '',
+        es: 'Seúl',
       },
       cca2: 'kr',
       name: {
@@ -2142,7 +2142,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Kuwait City',
-        es: '',
+        es: 'Kuwait',
       },
       cca2: 'kw',
       name: {
@@ -2157,7 +2157,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Nur-Sultan',
-        es: '',
+        es: 'Nur-Sultan',
       },
       cca2: 'kz',
       name: {
@@ -2172,7 +2172,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Vientiane',
-        es: '',
+        es: 'Vientiane',
       },
       cca2: 'la',
       name: {
@@ -2187,7 +2187,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Beirut',
-        es: '',
+        es: 'Beirut',
       },
       cca2: 'lb',
       name: {
@@ -2202,7 +2202,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Sri Jayawardenepura Kotte',
-        es: '',
+        es: 'Sri Jayawardenepura Kotte',
       },
       cca2: 'lk',
       name: {
@@ -2217,7 +2217,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Naypyidaw',
-        es: '',
+        es: 'Nay Pyi Taw',
       },
       cca2: 'mm',
       name: {
@@ -2232,7 +2232,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Ulan Bator',
-        es: '',
+        es: 'Ulaanbaatar',
       },
       cca2: 'mn',
       name: {
@@ -2247,7 +2247,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: '',
-        es: '',
+        es: 'Sin capital',
       },
       cca2: 'mo',
       name: {
@@ -2262,7 +2262,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Malé',
-        es: '',
+        es: 'Malé',
       },
       cca2: 'mv',
       name: {
@@ -2277,7 +2277,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Kuala Lumpur',
-        es: '',
+        es: 'Kuala Lumpur',
       },
       cca2: 'my',
       name: {
@@ -2292,7 +2292,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Kathmandu',
-        es: '',
+        es: 'Katmandú',
       },
       cca2: 'np',
       name: {
@@ -2307,7 +2307,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Muscat',
-        es: '',
+        es: 'Mascate',
       },
       cca2: 'om',
       name: {
@@ -2322,7 +2322,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Manila',
-        es: '',
+        es: 'Manila',
       },
       cca2: 'ph',
       name: {
@@ -2337,7 +2337,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Islamabad',
-        es: '',
+        es: 'Islamabad',
       },
       cca2: 'pk',
       name: {
@@ -2352,7 +2352,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Ramallah',
-        es: '',
+        es: 'Ramallah',
       },
       cca2: 'ps',
       name: {
@@ -2367,7 +2367,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Doha',
-        es: '',
+        es: 'Doha',
       },
       cca2: 'qa',
       name: {
@@ -2382,7 +2382,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Riyadh',
-        es: '',
+        es: 'Riad',
       },
       cca2: 'sa',
       name: {
@@ -2397,7 +2397,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Singapore',
-        es: '',
+        es: 'Singapur',
       },
       cca2: 'sg',
       name: {
@@ -2412,7 +2412,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Damascus',
-        es: '',
+        es: 'Damasco',
       },
       cca2: 'sy',
       name: {
@@ -2427,7 +2427,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Bangkok',
-        es: '',
+        es: 'Bangkok',
       },
       cca2: 'th',
       name: {
@@ -2442,7 +2442,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Dushanbe',
-        es: '',
+        es: 'Dushanbé',
       },
       cca2: 'tj',
       name: {
@@ -2457,7 +2457,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Dili',
-        es: '',
+        es: 'Dili',
       },
       cca2: 'tl',
       name: {
@@ -2472,7 +2472,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Ashgabat',
-        es: '',
+        es: 'Ashgabat',
       },
       cca2: 'tm',
       name: {
@@ -2487,7 +2487,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Ankara',
-        es: '',
+        es: 'Ankara',
       },
       cca2: 'tr',
       name: {
@@ -2502,7 +2502,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Taipei',
-        es: '',
+        es: 'Taipei',
       },
       cca2: 'tw',
       name: {
@@ -2517,7 +2517,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Tashkent',
-        es: '',
+        es: 'Tashkent',
       },
       cca2: 'uz',
       name: {
@@ -2532,7 +2532,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Hanoi',
-        es: '',
+        es: 'Hanoi',
       },
       cca2: 'vn',
       name: {
@@ -2547,7 +2547,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: "Sana'a",
-        es: '',
+        es: 'Sana',
       },
       cca2: 'ye',
       name: {
@@ -2564,7 +2564,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Andorra la Vella',
-        es: '',
+        es: 'Andorra la Vella',
       },
       cca2: 'ad',
       name: {
@@ -2579,7 +2579,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Tirana',
-        es: '',
+        es: 'Tirana',
       },
       cca2: 'al',
       name: {
@@ -2594,7 +2594,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Vienna',
-        es: '',
+        es: 'Viena',
       },
       cca2: 'at',
       name: {
@@ -2609,7 +2609,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Mariehamn',
-        es: '',
+        es: 'Mariehamn',
       },
       cca2: 'ax',
       name: {
@@ -2624,7 +2624,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Sarajevo',
-        es: '',
+        es: 'Sarajevo',
       },
       cca2: 'ba',
       name: {
@@ -2639,7 +2639,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Brussels',
-        es: '',
+        es: 'Bruselas',
       },
       cca2: 'be',
       name: {
@@ -2654,7 +2654,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Sofia',
-        es: '',
+        es: 'Sofía',
       },
       cca2: 'bg',
       name: {
@@ -2669,7 +2669,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Minsk',
-        es: '',
+        es: 'Minsk',
       },
       cca2: 'by',
       name: {
@@ -2684,7 +2684,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Bern',
-        es: '',
+        es: 'Berna',
       },
       cca2: 'ch',
       name: {
@@ -2699,7 +2699,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Nicosia',
-        es: '',
+        es: 'Nicosia',
       },
       cca2: 'cy',
       name: {
@@ -2714,7 +2714,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Prague',
-        es: '',
+        es: 'Praga',
       },
       cca2: 'cz',
       name: {
@@ -2729,7 +2729,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Berlin',
-        es: '',
+        es: 'Berlín',
       },
       cca2: 'de',
       name: {
@@ -2744,7 +2744,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Copenhagen',
-        es: '',
+        es: 'Copenhague',
       },
       cca2: 'dk',
       name: {
@@ -2759,7 +2759,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Tallinn',
-        es: '',
+        es: 'Tallin',
       },
       cca2: 'ee',
       name: {
@@ -2774,7 +2774,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Madrid',
-        es: '',
+        es: 'Madrid',
       },
       cca2: 'es',
       name: {
@@ -2789,7 +2789,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Helsinki',
-        es: '',
+        es: 'Helsinki',
       },
       cca2: 'fi',
       name: {
@@ -2804,7 +2804,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Tórshavn',
-        es: '',
+        es: 'Tórshavn',
       },
       cca2: 'fo',
       name: {
@@ -2819,7 +2819,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Paris',
-        es: '',
+        es: 'Paris',
       },
       cca2: 'fr',
       name: {
@@ -2834,7 +2834,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'London',
-        es: '',
+        es: 'Londres',
       },
       cca2: 'gb',
       name: {
@@ -2849,7 +2849,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'St. Peter Port',
-        es: '',
+        es: 'Saint Peter Port',
       },
       cca2: 'gg',
       name: {
@@ -2864,7 +2864,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Gibraltar',
-        es: '',
+        es: 'Gibraltar',
       },
       cca2: 'gi',
       name: {
@@ -2879,7 +2879,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Athens',
-        es: '',
+        es: 'Atenas',
       },
       cca2: 'gr',
       name: {
@@ -2894,7 +2894,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Zagreb',
-        es: '',
+        es: 'Zagreb',
       },
       cca2: 'hr',
       name: {
@@ -2909,7 +2909,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Budapest',
-        es: '',
+        es: 'Budapest',
       },
       cca2: 'hu',
       name: {
@@ -2924,7 +2924,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Dublin',
-        es: '',
+        es: 'Dublín',
       },
       cca2: 'ie',
       name: {
@@ -2939,7 +2939,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Douglas',
-        es: '',
+        es: 'Douglas',
       },
       cca2: 'im',
       name: {
@@ -2954,7 +2954,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Reykjavik',
-        es: '',
+        es: 'Reikiavik',
       },
       cca2: 'is',
       name: {
@@ -2969,7 +2969,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Rome',
-        es: '',
+        es: 'Roma',
       },
       cca2: 'it',
       name: {
@@ -2984,7 +2984,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Saint Helier',
-        es: '',
+        es: 'Saint Helier',
       },
       cca2: 'je',
       name: {
@@ -2999,7 +2999,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Vaduz',
-        es: '',
+        es: 'Vaduz',
       },
       cca2: 'li',
       name: {
@@ -3014,7 +3014,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Vilnius',
-        es: '',
+        es: 'Vilnius',
       },
       cca2: 'lt',
       name: {
@@ -3029,7 +3029,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Luxembourg',
-        es: '',
+        es: 'Luxemburgo',
       },
       cca2: 'lu',
       name: {
@@ -3044,7 +3044,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Riga',
-        es: '',
+        es: 'Riga',
       },
       cca2: 'lv',
       name: {
@@ -3059,7 +3059,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Monaco',
-        es: '',
+        es: 'Monaco',
       },
       cca2: 'mc',
       name: {
@@ -3074,7 +3074,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Chișinău',
-        es: '',
+        es: 'Chisinau',
       },
       cca2: 'md',
       name: {
@@ -3089,7 +3089,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Podgorica',
-        es: '',
+        es: 'Podgorica',
       },
       cca2: 'me',
       name: {
@@ -3104,7 +3104,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Skopje',
-        es: '',
+        es: 'Skopie',
       },
       cca2: 'mk',
       name: {
@@ -3119,7 +3119,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Valletta',
-        es: '',
+        es: 'La Valeta',
       },
       cca2: 'mt',
       name: {
@@ -3134,7 +3134,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Amsterdam',
-        es: '',
+        es: 'Ámsterdam',
       },
       cca2: 'nl',
       name: {
@@ -3149,7 +3149,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Oslo',
-        es: '',
+        es: 'Oslo',
       },
       cca2: 'no',
       name: {
@@ -3164,7 +3164,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Warsaw',
-        es: '',
+        es: 'Varsovia',
       },
       cca2: 'pl',
       name: {
@@ -3179,7 +3179,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Lisbon',
-        es: '',
+        es: 'Lisboa',
       },
       cca2: 'pt',
       name: {
@@ -3194,7 +3194,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Bucharest',
-        es: '',
+        es: 'Bucarest',
       },
       cca2: 'ro',
       name: {
@@ -3209,7 +3209,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Belgrade',
-        es: '',
+        es: 'Belgrado',
       },
       cca2: 'rs',
       name: {
@@ -3224,7 +3224,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Moscow',
-        es: '',
+        es: 'Moscú',
       },
       cca2: 'ru',
       name: {
@@ -3239,7 +3239,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Stockholm',
-        es: '',
+        es: 'Estocolmo',
       },
       cca2: 'se',
       name: {
@@ -3254,7 +3254,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Ljubljana',
-        es: '',
+        es: 'Liubliana',
       },
       cca2: 'si',
       name: {
@@ -3269,7 +3269,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Longyearbyen',
-        es: '',
+        es: 'Longyearbyen',
       },
       cca2: 'sj',
       name: {
@@ -3284,7 +3284,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Bratislava',
-        es: '',
+        es: 'Bratislava',
       },
       cca2: 'sk',
       name: {
@@ -3299,7 +3299,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'City of San Marino',
-        es: '',
+        es: 'San Marino',
       },
       cca2: 'sm',
       name: {
@@ -3314,7 +3314,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Kyiv',
-        es: '',
+        es: 'Kiev',
       },
       cca2: 'ua',
       name: {
@@ -3329,7 +3329,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Vatican City',
-        es: '',
+        es: 'Ciudad del Vaticano',
       },
       cca2: 'va',
       name: {
@@ -3344,7 +3344,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Pristina',
-        es: '',
+        es: 'Pristina',
       },
       cca2: 'xk',
       name: {
@@ -3361,7 +3361,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Pago Pago',
-        es: '',
+        es: 'Pago Pago',
       },
       cca2: 'as',
       name: {
@@ -3376,7 +3376,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Canberra',
-        es: '',
+        es: 'Canberra',
       },
       cca2: 'au',
       name: {
@@ -3391,7 +3391,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'West Island',
-        es: '',
+        es: 'West Island',
       },
       cca2: 'cc',
       name: {
@@ -3406,7 +3406,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Avarua',
-        es: '',
+        es: 'Avarua',
       },
       cca2: 'ck',
       name: {
@@ -3421,7 +3421,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Flying Fish Cove',
-        es: '',
+        es: 'Flying Fish Cove',
       },
       cca2: 'cx',
       name: {
@@ -3436,7 +3436,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Suva',
-        es: '',
+        es: 'Suva',
       },
       cca2: 'fj',
       name: {
@@ -3451,7 +3451,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Palikir',
-        es: '',
+        es: 'Palikir',
       },
       cca2: 'fm',
       name: {
@@ -3466,7 +3466,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Hagåtña',
-        es: '',
+        es: 'Agaña',
       },
       cca2: 'gu',
       name: {
@@ -3481,7 +3481,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'South Tarawa',
-        es: '',
+        es: 'Tarawa Sur',
       },
       cca2: 'ki',
       name: {
@@ -3496,7 +3496,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Majuro',
-        es: '',
+        es: 'Majuro',
       },
       cca2: 'mh',
       name: {
@@ -3511,7 +3511,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Saipan',
-        es: '',
+        es: 'Saipán',
       },
       cca2: 'mp',
       name: {
@@ -3526,7 +3526,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Nouméa',
-        es: '',
+        es: 'Numea',
       },
       cca2: 'nc',
       name: {
@@ -3541,7 +3541,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Kingston',
-        es: '',
+        es: 'Kingston',
       },
       cca2: 'nf',
       name: {
@@ -3556,7 +3556,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Yaren',
-        es: '',
+        es: 'Yaren',
       },
       cca2: 'nr',
       name: {
@@ -3571,7 +3571,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Alofi',
-        es: '',
+        es: 'Alofi',
       },
       cca2: 'nu',
       name: {
@@ -3586,7 +3586,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Wellington',
-        es: '',
+        es: 'Wellington',
       },
       cca2: 'nz',
       name: {
@@ -3601,7 +3601,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Papeetē',
-        es: '',
+        es: 'Papeete',
       },
       cca2: 'pf',
       name: {
@@ -3616,7 +3616,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Port Moresby',
-        es: '',
+        es: 'Port Moresby',
       },
       cca2: 'pg',
       name: {
@@ -3631,7 +3631,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Adamstown',
-        es: '',
+        es: 'Adamstown',
       },
       cca2: 'pn',
       name: {
@@ -3646,7 +3646,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Ngerulmud',
-        es: '',
+        es: 'Ngerulmud',
       },
       cca2: 'pw',
       name: {
@@ -3661,7 +3661,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Honiara',
-        es: '',
+        es: 'Honiara',
       },
       cca2: 'sb',
       name: {
@@ -3676,7 +3676,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Fakaofo',
-        es: '',
+        es: 'Fakaofo',
       },
       cca2: 'tk',
       name: {
@@ -3691,7 +3691,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: "Nuku'alofa",
-        es: '',
+        es: "Nuku'alofa",
       },
       cca2: 'to',
       name: {
@@ -3706,7 +3706,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Funafuti',
-        es: '',
+        es: 'Vaiaku',
       },
       cca2: 'tv',
       name: {
@@ -3721,7 +3721,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Port Vila',
-        es: '',
+        es: 'Port Vila',
       },
       cca2: 'vu',
       name: {
@@ -3736,7 +3736,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Mata-Utu',
-        es: '',
+        es: 'Mata-Utu',
       },
       cca2: 'wf',
       name: {
@@ -3751,7 +3751,7 @@ export const COUNTRIES: CountryListType = {
       accumulatedScore: 0,
       capital: {
         en: 'Apia',
-        es: '',
+        es: 'Apia',
       },
       cca2: 'ws',
       name: {

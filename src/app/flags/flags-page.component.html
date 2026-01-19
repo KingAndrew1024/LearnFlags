@@ -14,9 +14,11 @@
         <ion-card routerLink="{{ card.link }}">
           <img [src]="card.image" alt="card image" />
           <ion-card-header>
-            <ion-card-title>{{ card.title }}</ion-card-title>
+            <ion-card-title>
+              <h1>{{ card.title }}</h1>
+            </ion-card-title>
           </ion-card-header>
-          <ion-card-content> El contenido XD </ion-card-content>
+          <ion-card-content> {{ card.description }} </ion-card-content>
         </ion-card>
       </ion-col>
     </ion-row>
